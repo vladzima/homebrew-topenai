@@ -1,6 +1,6 @@
 # homebrew-topenai
 
-To install [Topenai](https://github.com/vladzima/topenai) using Homebrew:
+To install [Topenai](https://github.com/vladzima/topenai) with Homebrew:
 
     brew tap vladzima/topenai
     brew install vladzima/topenai/topenai
