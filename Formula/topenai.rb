@@ -1,12 +1,12 @@
 class Topenai < Formula
   include Language::Python::Virtualenv
 
-  desc "A simple CLI tool to interact with OpenAI"
+  desc "Simple CLI tool to interact with OpenAI"
   homepage "https://github.com/vladzima/topenai"
   url "https://files.pythonhosted.org/packages/ea/f8/febbfac6ca11c49c3f3180ec39ca00e8b50dfaba368710ddf70d1353c404/topenai-0.0.8.tar.gz"
   sha256 "d0d5fca85d18da2385c9a30454bf112f7b18d92e4d87c2a8c5b3a153065cf52f"
 
-  depends_on "python3"
+  depends_on "python@3.11"
 
   resource "requests" do
     url "https://files.pythonhosted.org/packages/9d/be/10918a2eac4ae9f02f6cfe6414b7a155ccd8f7f9d4380d62fd5b955065c3/requests-2.31.0.tar.gz"
